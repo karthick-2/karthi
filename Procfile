@@ -1,1 +1,1 @@
-web: gunicorn processWebhook:app --log-file -
+web: voila --port=$PORT --no-browser correctform.ipynb
